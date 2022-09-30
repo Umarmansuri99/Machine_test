@@ -97,21 +97,7 @@ class LoginController extends GetxController {
       getLogin();
 
     }
-
-
   }
-
-
-
-  /*void onSignup() async {
-    Get.toNamed(Routes.REGISTRATION);
-  }
-
-  void onforgetPassword() async {
-    Get.toNamed(Routes.FORGOT_PASSWORD);
-  }*/
-
-
   void getLogin() async {
     try {
       isLoading(true);

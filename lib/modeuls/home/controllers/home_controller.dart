@@ -17,7 +17,6 @@ class HomeController extends GetxController {
     super.onInit();
     LocalList.clear();
     get_user_data_List();
-
   }
 
   @override
@@ -63,12 +62,6 @@ class HomeController extends GetxController {
         isLastPage.value = LocalList.length < numberOfPostsPerRequest.value;
         pageNumber.value = pageNumber.value + 1;
 
-
-
-
-
-
         isloder(false);
-
   }
 }

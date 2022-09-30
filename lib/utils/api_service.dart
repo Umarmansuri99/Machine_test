@@ -37,6 +37,9 @@ class ApiService {
    var ConvertDataToJson = jsonDecode(response.body);
    return ConvertDataToJson;
  }
+
+
+
  Future Signup(String email, String password, String name) async {
    print("{$email  $password  $name}");
    final response = await http.post(Uri.parse(BASE_URL + SIGNUP),
